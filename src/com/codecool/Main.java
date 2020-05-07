@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         SimplePrimes simplePrimes = new SimplePrimes();
-
-        System.out.println(simplePrimes.getPrimesUpToNumber(300L));
+        Eratosthenes eratosthenes  = new Eratosthenes();
+        //System.out.println(simplePrimes.getPrimesUpToNumber(300L));
+        System.out.println(eratosthenes.getPrimesUpToNumber(21L));
     }
 }
